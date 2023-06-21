@@ -43,6 +43,19 @@
 
 // System.Console.WriteLine($"Distance between points A and B {FindDistance (xa, ya, za, xb, yb, zb)}");
 
-// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-// 3 -> 1, 8, 27
-// 5 -> 1, 8, 27, 64, 125
+// // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// // 3 -> 1, 8, 27
+// // 5 -> 1, 8, 27, 64, 125
+ 
+// void Cube_num (int num)
+// {
+//     int count = 1;
+//     while (count <= num)
+//     {
+//         System.Console.WriteLine($"{count} ---> {Math.Pow (count, 3)}");
+//         count ++;
+//     }
+// }
+// System.Console.WriteLine($"Enter your number");
+// int num = Convert.ToInt32(Console.ReadLine());
+// Cube_num (num);
